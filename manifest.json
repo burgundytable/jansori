@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Jansori 잔소리",
+  "version": "1.0.0",
+  "description": "Your caring desk companion — posture, walk, and hydration reminders with warm sounds. 자세, 산책, 수분 알림.",
+  "permissions": ["alarms", "storage", "offscreen", "notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["i18n.js", "background.js"]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "jansori@burgundytable.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
