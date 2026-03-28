@@ -41,4 +41,4 @@ Jansori stores all settings locally on your device. No data is collected, transm
 
 ## License
 
-[MIT](LICENSE) — Brandon Chun (천명우) / BurgundyTable
+[MIT](LICENSE) — BurgundyTable
